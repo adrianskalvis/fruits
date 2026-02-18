@@ -1,0 +1,12 @@
+CREATE DATABASE fruits;
+
+CREATE TABLE fruits (
+    ID INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(40) NOT NULL
+)
+
+INSERT INTO fruits
+(name)
+VALUES
+("Banāns"),
+("Ābols")
