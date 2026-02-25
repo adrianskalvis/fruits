@@ -1,0 +1,66 @@
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+nav {
+    padding: 18px 18px 14px 18px;
+    border-bottom: 1px solid #000;
+}
+
+nav a {
+    margin-right: 24px;
+    margin-bottom: 2px;
+    padding-left: 20px;
+    display: inline-block;
+    line-height: 1.6;
+    color: #551A8B;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+main {
+    padding: 24px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0 0 16px 0;
+    font-weight: 700;
+}
+
+label {
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+input[type="text"] {
+    font-size: 14px;
+    padding: 3px 6px;
+    width: 260px;
+}
+
+button {
+    font-size: 14px;
+    padding: 3px 8px;
+}
+
+ul {
+    margin-top: 16px;
+}
+
+li {
+    font-size: 18px;
+    margin: 4px 0;
+}
+
+a {
+    color: #551A8B;
+}
+
+.error {
+    font-size: 16px;
+    margin-top: 10px;
+}

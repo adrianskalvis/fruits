@@ -1,3 +1,3 @@
 <?php
 
-echo "Waring, Warning, Error";
+require "views/404.view.php";

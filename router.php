@@ -1,6 +1,6 @@
 <?php
 
-$uri = parse_url($_SERVER['REQUEST_URI']);
+$uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
     $routes = require "routes.php";
 
@@ -9,6 +9,6 @@ $uri = parse_url($_SERVER['REQUEST_URI']);
     }
     else {
         http_response_code(404);
-        echo "controllers/404.php";
+        require "controllers/404.php";
         die();
     }

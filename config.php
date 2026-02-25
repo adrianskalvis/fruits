@@ -3,8 +3,9 @@
     return [
         "database" => [
             "host" => "127.0.0.1",
-            "user" => "3306",
-            "password" => "",
+            "port" => 3306,
+            "user" => "root",
+            "password" => "root",
             "dbname" => "fruits",
             "charset" => "utf8mb4"
         ]
